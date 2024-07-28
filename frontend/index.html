@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -28,20 +35,25 @@
             </ul>
         </div>
 
-        <a class="button-sorting" href=""></a>
+        <div class="select-wrapper">
+            <label for="sort"></label>
+            <select id="sort" name="" >
+                <option value="">Кинотеатр «На Карповке»</option>
+            </select>
+        </div>
     </div>
 </header>
+    <main>
 
-<main>
-
-    <section class="navigation"></section>
+    <div class="navigation"></div>
 
     <section class="ticket-registration"></section>
 
-    <section class="ticket"></section>
+    <div class="payment">
+        <section class="ticket"></section>
 
-    <section class="payment"></section>
-
+        <section class="cards"></section>
+    </div>
 </main>
 </body>
 </html>
