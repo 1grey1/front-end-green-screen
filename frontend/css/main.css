@@ -2,20 +2,3 @@ main {
     display: flex;
     margin-top: var(--section-padding);
 }
-
-main .navigation {
-
-    border: 1px solid #000;
-}
-
-main .ticket-registration {
-
-    border: 1px solid #000;
-}
-
-main .payment {
-
-    border: 1px solid #000;
-}
-
-
