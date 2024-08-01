@@ -1,5 +1,6 @@
 :root {
-    --section-padding: 30px;
+    --section-padding: 90px;
+    --section-button: 62px ;
 }
 
 * {

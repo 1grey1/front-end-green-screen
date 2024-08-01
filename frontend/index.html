@@ -4,8 +4,16 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/main-header.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/nav.css">
+
+    <!-- Подключение шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -28,20 +36,50 @@
             </ul>
         </div>
 
-        <a class="button-sorting" href=""></a>
+        <div class="select-wrapper">
+            <label for="sort"></label>
+            <select id="sort" name="" >
+                <option value="">Кинотеатр «На Карповке»</option>
+            </select>
+        </div>
     </div>
 </header>
-
 <main>
+    <section class="main-content">
+        <div class="container">
+            <aside class="nav">
+                <ul class="nav-list">
+                    <li class="nav-list-item active">
+                        <a href="">Сеансы</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">Трейлеры</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">Новости</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">О нас</a>
+                    </li>
+                    <li class="nav-list-item">
+                        <a href="">Контакты</a>
+                    </li>
+                </ul>
 
-    <section class="navigation"></section>
+                <ul class="user-menu">
+                    <li class="user-menu-item">
+                        <a href="">Аккаунт</a>
+                    </li>
+                </ul>
+            </aside>
 
-    <section class="ticket-registration"></section>
+            <div class="cinema-registration">
 
-    <section class="ticket"></section>
+            </div>
 
-    <section class="payment"></section>
-
+            <aside class="ticket-registration"></aside>
+        </div>
+    </section>
 </main>
 </body>
 </html>
