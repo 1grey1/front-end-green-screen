@@ -1,0 +1,95 @@
+.main-content .ticket-registration {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 360px;
+    margin-top: var(--section-padding);
+    background-color: #5957DB;
+}
+
+.main-content .ticket-registration .ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-content .ticket-registration .ticket .name {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 240px;
+    height: 60px;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #43D000;
+}
+
+.main-content .ticket-registration .ticket .info {
+    position: relative;
+    width: 240px;
+    height: 308px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FFF;
+}
+
+.main-content .ticket-registration .ticket .name p {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+}
+
+.main-content .ticket-registration .ticket .info::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    z-index: 10;
+    transform: translateY(-50%);
+    border-radius: 100%;
+    color: #5957DB;
+
+}
+
+.main-content .ticket-registration .ticket .info .markup {
+    display: flex;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+.main-content .ticket-registration .ticket .info .markup .info-list  {
+    width: 50px;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    color: #AAAAAA;
+}
+
+.main-content .ticket-registration .ticket .info .markup .info-list-item {
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: #666666;
+}
+
+.main-content .ticket-registration .ticket .info .barcode {
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+.main-content .ticket-registration .ticket .info .separator{
+    margin: 5px;
+    width:50%;
+    border-bottom: 1px dotted #000
+}
