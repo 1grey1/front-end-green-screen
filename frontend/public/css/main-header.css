@@ -38,7 +38,7 @@
     width: 10px;
     height: 10px;
     transform: translateY(-50%);
-    background-image: url("../img/icon/breadcrumb-union.svg");
+    background-image: url("public/img/icon/breadcrumb-union.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
