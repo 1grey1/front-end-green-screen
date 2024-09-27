@@ -38,7 +38,7 @@
     width: 10px;
     height: 10px;
     transform: translateY(-50%);
-    background-image: url("public/img/icon/breadcrumb-union.svg");
+    background-image: url("../img/icon/breadcrumb-union.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -59,9 +59,13 @@
 .main-header .select-wrapper select {
     width: 329px;
     height: 48px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
     color: #5957DB;
+    padding: 14px 24px 14px 24px;
 }

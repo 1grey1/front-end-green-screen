@@ -12,25 +12,7 @@
 }
 
 .main-content .nav .nav-list {
-    margin: 40px 0 0 30px;
-}
-
-.main-content .nav .nav-list .nav-list-item {
-    position: relative;
-}
-
-.main-content .nav .nav-list .nav-list-item.active {
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*width: 228px;*/
-    /*height: 62px;*/
-    /*border-bottom-left-radius: 30px;*/
-    /*border-top-left-radius: 30px;*/
-    /*background-color: #ECF2FF;*/
-}
-
-.main-content .nav .nav-list .nav-list-item.active a {
-    color: #5957DB;
+    margin: 20px 0 0 30px;
 }
 
 .main-content .nav .nav-list .nav-list-item:not(:first-child) {
@@ -61,23 +43,23 @@
 }
 
 .main-content .nav .nav-list-item:nth-child(1) a::before {
-    background-image: url("public/img/icon/session.svg");
+    background-image: url("../img/icon/wsession.svg");
 }
 
 .main-content .nav .nav-list .nav-list-item:nth-child(2) a::before {
-    background-image: url("public/img/icon/trailer.svg");
+    background-image: url("../img/icon/trailer.svg");
 }
 
 .main-content .nav .nav-list .nav-list-item:nth-child(3) a::before {
-    background-image: url("public/img/icon/news.svg");
+    background-image: url("../img/icon/news.svg");
 }
 
 .main-content .nav .nav-list .nav-list-item:nth-child(4) a::before {
-    background-image: url("public/img/icon/about-us.svg");
+    background-image: url("../img/icon/about-us.svg");
 }
 
 .main-content .nav .nav-list .nav-list-item:nth-child(5) a::before {
-    background-image: url("public/img/icon/contact.svg");
+    background-image: url("../img/icon/contact.svg");
 }
 
 .main-content .nav .user-menu {
@@ -104,21 +86,7 @@
     width: 40px;
     height: 40px;
     transform: translateY(-50%);
-    background-image: url("public/img/icon/user-icon.svg");
+    background-image: url("../img/icon/user-icon.svg");
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-.main-content .nav .nav-list .nav-list-item.active::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    align-items: center;
-    width: 228px;
-    height: 62px;
-    border-bottom-left-radius: 30px;
-    border-top-left-radius: 30px;
-    background-color: #ECF2FF
 }
